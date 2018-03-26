@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_ll"
+    tools:context="app.my.com.definedviewdemo.MainActivity"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="自定义（自绘）控件:"
+    android:textColor="#000000"
+    android:textSize="19dp"
+    android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/first_bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="#1c7cee"
+            android:text="跟随手指的小球"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/second_bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#1c7cee"
+            android:text="View显示一个圆形"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/third_bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#1c7cee"
+            android:text="自定义groupView"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"/>
+       </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组合，继承控件:"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/four_bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="#1c7cee"
+            android:text="组合控件"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/five_bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#1c7cee"
+            android:text="继承控件"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/six_bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#1c7cee"
+            android:text="666"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>
